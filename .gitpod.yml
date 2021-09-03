@@ -1,0 +1,7 @@
+image: cimg/android:30.0
+
+tasks:
+  - before: >
+      git config --global --unset credential.helper
+  - before: >
+      bash cupu.sh
